@@ -1,4 +1,4 @@
-package cm.aptoide.pt;
+package cm.aptoide.pt.dev;
 
 import android.app.Application;
 import android.content.Context;
@@ -18,6 +18,8 @@ public class Aptoide extends Application {
     public void onCreate() {
         super.onCreate();
         context = this;
+
+
     }
 
     public static Context getContext(){
